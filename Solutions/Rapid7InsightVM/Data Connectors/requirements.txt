@@ -2,7 +2,9 @@
 # The Python Worker is managed by Azure Functions platform
 # Manually managing azure-functions-worker may cause unexpected issues
 
-aiohttp==3.8.5
+aiohttp==3.10.2
 azure-functions==1.6.0
 azure-storage-file-share==12.4.1
 python-dateutil==2.8.2
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
