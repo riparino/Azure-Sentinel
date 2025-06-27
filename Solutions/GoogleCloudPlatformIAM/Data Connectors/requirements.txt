@@ -4,3 +4,5 @@ google-cloud-logging==3.5.0
 azure-storage-file-share==12.3.0
 python-dateutil==2.8.1
 requests==2.32.4 # pinned to an exact version to ensure reproducible builds
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
