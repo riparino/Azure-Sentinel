@@ -5,3 +5,4 @@
 azure-functions
 requests
 urllib3==2.5.0 # pinned to an exact version to ensure stability and avoid issues from future releases
+werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
