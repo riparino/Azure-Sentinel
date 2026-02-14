@@ -18,3 +18,4 @@ azure-data-tables==12.4.0
 python-json-logger==0.1.11
 freezegun==1.2.2
 urllib3==1.26.19
+cryptography>=46.0.5 # not directly required, pinned by Snyk to avoid a vulnerability
