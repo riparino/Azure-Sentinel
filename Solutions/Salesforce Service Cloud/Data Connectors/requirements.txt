@@ -4,4 +4,4 @@
 
 azure-functions
 requests
-urllib3==2.5.0 # pinned to an exact version to ensure stability and avoid issues from future releases
+urllib3==2.7.0 # pinned to an exact version to ensure stability and avoid issues from future releases
